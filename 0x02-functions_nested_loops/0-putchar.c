@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main _Entry point of my code, A code that Write a program that prints _putchar, followed by a new lin
+ * main (A code that Write a program that prints _putchar, followed by a new lin)
  *
  * Return: Always 0
  */
