@@ -2,10 +2,9 @@
 
 /**
  * print_alphabet - Make the alphabet
- * 
- * Retuen:void
+ *
+ * Return:void
  */
-
 void print_alphabet(void)
 {
 char ch;
