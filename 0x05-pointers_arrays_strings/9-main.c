@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 #define LEN 10
 
@@ -17,9 +18,9 @@ int main(void)
 	char *str;
 	char *ret;
 
-	_memset(cpy, 'H', LEN);
+	memset(cpy, 'H', LEN);
 	str = "Holberton!";
-	ret = _strcpy(cpy, str);
+	ret = strcpy(cpy, str);
 	printf("%s\n%s\n%s\n", str, cpy, ret);
 	return (0);
 }
