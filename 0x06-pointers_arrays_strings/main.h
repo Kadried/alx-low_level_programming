@@ -4,7 +4,7 @@
 /**
  * my header file that had all of the prototyoes for the 0x06.C - more pointers
  */
-int _putchar(char C);
+int _putchar(char c);
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
 char *_strncat(char *dest, char *src, int n);
