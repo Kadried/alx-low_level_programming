@@ -7,23 +7,30 @@
  */
 int main(void)
 {
-	int i;
+	int i = 0;
 	int j;
 
-	for (i = 0; i <= 9; i++)
+	while (i < 100)
 	{
-		for (j = i + 1; j <= 9; j++)
+		j = i + 1;
+		while (j < 100)
 		{
-			printf("%02d %02d", i, j);
+			putchar((i / 10) + '0');
+			putchar((i % 10) + '0');
+			putchar(' ');
+			putchar((j / 10) + '0');
+			putchar((j % 10) + '0');
 
-			if (!(i == 9 && j == 9))
+			if (i != 98 || j != 99)
 			{
-				printf(", ");
+				putchar(',');
+				putchar(' ');
 			}
+			j++;
 		}
+		i++;
 	}
 
 	putchar('\n');
-
 	return (0);
 }
