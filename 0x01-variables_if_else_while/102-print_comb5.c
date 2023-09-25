@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main + Entry point
- * Description: a program that prints the alphabet.
+ * main - Entry point
+ * Description: a program that prints combinations of two-digit numbers
  * Return: Always 0.
  */
 int main(void)
@@ -19,6 +19,7 @@ int main(void)
 			putchar(' ');
 			putchar((j / 10) + '0');
 			putchar((j % 10) + '0');
+
 			if (i != 99 || j != 99)
 			{
 				putchar(',');
